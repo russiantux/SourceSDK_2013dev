@@ -1,9 +1,9 @@
 "GameInfo"
 {
-	game 		"My First HL2 Mod"
-	title 		"HALF-LIFE'"
+	game 		"Source SDK 2013 dev"
+	title 		"courier"
 	title2		""
-	supportsvr	1
+	supportsvr	0
 
 	type		singleplayer_only
 
