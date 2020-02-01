@@ -34,7 +34,7 @@ $Configuration
 		$PreprocessorDefinitions			"$BASE;PLATFORM_64BITS;WIN64;_WIN64;COMPILER_MSVC64" [$WIN64]
 		$PreprocessorDefinitions			"$BASE;COMPILER_MSVC32" [$WIN32]		
 		$PreprocessorDefinitions			"$BASE;COMPILER_MSVC;_DLL_EXT=$_DLL_EXT"
-		$PreprocessorDefinitions			"$BASE;DLLNAME=$OUTBINNAME"		
+		$PreprocessorDefinitions			"$BASE;DLLNAME=$OUTBINNAME;SOURCE_2013"		
 	}
 
 	$Compiler [$WIN32]
@@ -132,6 +132,8 @@ $Project
 			}
 		}
 	}
+
+	
 
 	$Folder	"Link Libraries"
 	{

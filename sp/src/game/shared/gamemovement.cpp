@@ -2039,6 +2039,8 @@ void CGameMovement::FullWalkMove( )
 		return;
 	}
 
+
+
 	// If we are swimming in the water, see if we are nudging against a place we can jump up out
 	//  of, and, if so, start out jump.  Otherwise, if we are not moving up, then reset jump timer to 0
 	if ( player->GetWaterLevel() >= WL_Waist ) 

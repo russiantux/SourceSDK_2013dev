@@ -56,3 +56,12 @@ config.cfg
 
 sp/src/.vs/everything/v16/Browse.VC.db
 *.opendb
+
+sp/game/mod_hl2/maps/
+sp/game/mod_hl2/save/
+sp/src/utils/
+sp/game/
+*.bsp
+*.vmf
+*.vmx
+*.prt

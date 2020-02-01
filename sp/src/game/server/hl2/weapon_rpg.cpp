@@ -721,7 +721,7 @@ CMissile *CMissile::Create( const Vector &vecOrigin, const QAngle &vecAngles, ed
 	Vector vecForward;
 	AngleVectors( vecAngles, &vecForward );
 
-	pMissile->SetAbsVelocity( vecForward * 300 + Vector( 0,0, 128 ) );
+	pMissile->SetAbsVelocity( vecForward * 700 + Vector( 0,0, 128 ) );
 
 	return pMissile;
 }

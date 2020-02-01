@@ -21,7 +21,7 @@
 // memdbgon must be the last include file in a .cpp file!!!
 #include "tier0/memdbgon.h"
 
-#define	PISTOL_FASTEST_REFIRE_TIME		0.1f
+#define	PISTOL_FASTEST_REFIRE_TIME		1.0f
 #define	PISTOL_FASTEST_DRY_REFIRE_TIME	0.2f
 
 #define	PISTOL_ACCURACY_SHOT_PENALTY_TIME		0.2f	// Applied amount of time each shot adds to the time we must recover from
@@ -364,9 +364,9 @@ void CWeaponPistol::AddViewKick( void )
 
 	QAngle	viewPunch;
 
-	viewPunch.x = random->RandomFloat( 0.25f, 0.5f );
-	viewPunch.y = random->RandomFloat( -.6f, .6f );
-	viewPunch.z = 0.0f;
+	viewPunch.x = random->RandomFloat( -3.00f, 0.00f );
+	viewPunch.y = random->RandomFloat( -.06f, .06f );
+	viewPunch.z = random->RandomFloat(-3.00f, 3.00f);
 
 	//Add it to the view punch
 	pPlayer->ViewPunch( viewPunch );
