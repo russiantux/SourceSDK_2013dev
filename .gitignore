@@ -65,3 +65,4 @@ sp/game/
 *.vmf
 *.vmx
 *.prt
+sp/game/mod_hl2/cfg/server_blacklist.txt
